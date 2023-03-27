@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "endersteel:galvanized_endersteel_block"
+    }
+  ],
+  "result": {
+    "item": "endersteel:galvanized_endersteel",
+    "count": 9
+  }
+}
