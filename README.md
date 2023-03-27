@@ -3,6 +3,9 @@ By: Aximilius
 
 My first foray into Minecraft modding, Endersteel is a vanilla-adjacent mod that adds an End-based endgame material to the game.
 
+# Instructions
+Download the "endersteel-1.0.3.0.jar" file and add it to your mods folder
+
 # Changelog
 v1.0.3.0
 - Added naturally spawning Endersteel Deposit veins to the End
@@ -35,3 +38,4 @@ v1.0.0.0
 # Future Plans
 - Add full suite of tools and armor
   - Potentially with their own special effects
+- Allow the use of Endersteel blocks as a beacon base
