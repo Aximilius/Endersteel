@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_galvanized_endersteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endersteel:galvanized_endersteel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "endersteel:galvanized_endersteel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_galvanized_endersteel",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "endersteel:galvanized_endersteel_block"
+    ]
+  }
+}
