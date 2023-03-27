@@ -5,9 +5,12 @@ import java.util.function.Supplier;
 import com.aximilius.endersteel.Endersteel;
 import com.aximilius.endersteel.item.ModItem;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -25,10 +28,10 @@ public class ModBlock {
 			() -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(30f).requiresCorrectToolForDrops()));
 	
 	public static final RegistryObject<Block> GALVANIZED_ENDERSTEEL_BLOCK = registerBlock("galvanized_endersteel_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(50f).requiresCorrectToolForDrops()));
+			() -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).strength(50f).requiresCorrectToolForDrops()));
 	
 	public static final RegistryObject<Block> ENDERSTEEL_DEPOSIT = registerBlock("endersteel_deposit", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(30f).requiresCorrectToolForDrops()));
+			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(30f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
 	
 	
 	private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

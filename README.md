@@ -1,9 +1,14 @@
-# Endersteel v1.0.2.0
+# Endersteel v1.0.3.0
 By: Aximilius
 
 My first foray into Minecraft modding, Endersteel is a vanilla-adjacent mod that adds an End-based endgame material to the game.
 
 # Changelog
+v1.0.3.0
+- Added naturally spawning Endersteel Deposit veins to the End
+  - Spawns once per chunk in veins of 1-3
+  - Spawns from y/-64 to y/80 (super rare)
+
 v1.0.2.0
 - Added generated .jsons for the following
   - blockstates
@@ -26,3 +31,7 @@ v1.0.0.0
 - Added Galvanized Endersteel
 - Added Galvanized Endersteel Block
 - Added Endersteel Deposit
+
+# Future Plans
+- Add full suite of tools and armor
+  - Potentially with their own special effects

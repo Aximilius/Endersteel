@@ -56,12 +56,12 @@ public class Endersteel {
     	}
     	
     	if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
-    		event.accept(ModBlock.RAW_ENDERSTEEL_BLOCK);
     		event.accept(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK);
     	}
     	
     	if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
     		event.accept(ModBlock.ENDERSTEEL_DEPOSIT);
+    		event.accept(ModBlock.RAW_ENDERSTEEL_BLOCK);
     	}
     }
     

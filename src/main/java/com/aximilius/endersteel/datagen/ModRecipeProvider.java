@@ -9,6 +9,8 @@ import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.client.Minecraft;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.data.recipes.LegacyUpgradeRecipeBuilder;
+import net.minecraft.data.recipes.RecipeBuilder;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
@@ -56,7 +58,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     						.of(ModItem.GALVANIZED_ENDERSTEEL.get()).build()))
     				.save(consumer);
 			
-			netheriteSmithing(consumer, null, null, null);
+			
 		
 	}
 

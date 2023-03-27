@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "#is_end",
+	"features": "endersteel:endersteel_placed",
+	"step": "underground_ores"
+}
