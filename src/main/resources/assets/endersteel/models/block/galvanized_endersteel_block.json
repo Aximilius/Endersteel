@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "endersteel:block/galvanized_endersteel_block"
+	}
+}

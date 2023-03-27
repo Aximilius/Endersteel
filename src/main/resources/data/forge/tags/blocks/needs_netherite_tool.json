@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "endersteel:raw_endersteel_block",
+    "endersteel:galvanized_endersteel_block",
+    "endersteel:endersteel_deposit"
+  ]
+}
