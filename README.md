@@ -60,3 +60,4 @@ v0.0.0.0
 - Allow the use of Endersteel blocks as a beacon base
 - Netherite and Endersteel horse armor
 - Sort the creative inventory to include Endersteel items (if possible)
+- Respawn anchor for the End
