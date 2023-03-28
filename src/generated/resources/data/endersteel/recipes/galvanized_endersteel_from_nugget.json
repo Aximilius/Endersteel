@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "galvanized_endersteel_from_nugget",
+  "key": {
+    "B": {
+      "item": "endersteel:endersteel_nugget"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "item": "endersteel:galvanized_endersteel"
+  },
+  "show_notification": true
+}

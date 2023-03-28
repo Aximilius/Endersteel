@@ -1,12 +1,19 @@
-# Endersteel v0.0.4.1
+# Endersteel v1.0.0.0
 By: Aximilius
 
 My first foray into Minecraft modding, Endersteel is a vanilla-adjacent mod that adds an End-based endgame material to the game.
 
 # Instructions
-Download the "endersteel-1.19.4-0.0.4.1.jar" file and add it to your mods folder
+Download the "endersteel-1.19.4-1.0.0.0.jar" file and add it to your mods folder
+
+Endersteel Deposits can be found throughout the end in extremely rare veins of 1-3 deposits. Endersteel Deposits will drop 1 raw endersteel, which you can combine with a netherite block in a smithing table to get a Galvanized Endersteel Ingot. Use this in a smithing table to upgrade your netherite armor, weapons, and tools into even stronger variants.
 
 # Changelog
+v1.0.0.0
+- Added Galvanized Endersteel Armor
+- Added Endersteel Nugget
+  - Ensured all items had properly working recipes
+
 v0.0.4.1
 - Fixed an issue with the Endersteel Deposit loot table
   - Fortune no longer works on Endersteel Deposits
@@ -51,3 +58,5 @@ v0.0.0.0
 # Future Plans
 - Add special effects to armor
 - Allow the use of Endersteel blocks as a beacon base
+- Netherite and Endersteel horse armor
+- Sort the creative inventory to include Endersteel items (if possible)

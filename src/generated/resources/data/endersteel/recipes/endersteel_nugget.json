@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "endersteel:galvanized_endersteel_block"
+      "item": "endersteel:galvanized_endersteel"
     }
   ],
   "result": {
-    "item": "endersteel:galvanized_endersteel",
-    "count": 9
+    "count": 9,
+    "item": "endersteel:endersteel_nugget"
   }
 }

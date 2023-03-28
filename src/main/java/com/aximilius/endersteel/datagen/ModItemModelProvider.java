@@ -24,11 +24,18 @@ public class ModItemModelProvider extends ItemModelProvider {
 		// TODO Auto-generated method stub
 		simpleItem(ModItem.RAW_ENDERSTEEL);
 		simpleItem(ModItem.GALVANIZED_ENDERSTEEL);
+		simpleItem(ModItem.ENDERSTEEL_NUGGET);
+
 		swordItem(ModItem.GALVANIZED_ENDERSTEEL_SWORD);
 		axeItem(ModItem.GALVANIZED_ENDERSTEEL_AXE);
 		pickaxeItem(ModItem.GALVANIZED_ENDERSTEEL_PICKAXE);
 		shovelItem(ModItem.GALVANIZED_ENDERSTEEL_SHOVEL);
 		hoeItem(ModItem.GALVANIZED_ENDERSTEEL_HOE);
+
+		armorItem(ModItem.GALVANIZED_ENDERSTEEL_HELMET);
+		armorItem(ModItem.GALVANIZED_ENDERSTEEL_CHESTPLATE);
+		armorItem(ModItem.GALVANIZED_ENDERSTEEL_LEGGINGS);
+		armorItem(ModItem.GALVANIZED_ENDERSTEEL_BOOTS);
 	}
 	
 	private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -67,6 +74,12 @@ public class ModItemModelProvider extends ItemModelProvider {
 	private ItemModelBuilder hoeItem(RegistryObject<HoeItem> item) {
 		return withExistingParent(item.getId().getPath(),
 				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+
+	private ItemModelBuilder armorItem(RegistryObject<ArmorItem> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/generated")).texture("layer0",
 				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
 	}
 }

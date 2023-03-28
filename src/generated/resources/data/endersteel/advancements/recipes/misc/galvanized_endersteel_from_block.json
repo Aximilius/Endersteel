@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "endersteel:galvanized_endersteel"
+        "recipe": "endersteel:galvanized_endersteel_from_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "endersteel:galvanized_endersteel"
+      "endersteel:galvanized_endersteel_from_block"
     ]
   }
 }

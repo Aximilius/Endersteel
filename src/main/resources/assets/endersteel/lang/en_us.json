@@ -1,11 +1,18 @@
 {
 	"item.endersteel.raw_endersteel": "Raw Endersteel",
-	"item.endersteel.galvanized_endersteel": "Galvanized Endersteel",
+	"item.endersteel.galvanized_endersteel": "Galvanized Endersteel Ingot",
+	"item.endersteel.endersteel_nugget": "Endersteel Nugget",
+
 	"item.endersteel.galvanized_endersteel_sword": "Galvanized Endersteel Sword",
 	"item.endersteel.galvanized_endersteel_axe": "Galvanized Endersteel Axe",
 	"item.endersteel.galvanized_endersteel_pickaxe": "Galvanized Endersteel Pickaxe",
 	"item.endersteel.galvanized_endersteel_shovel": "Galvanized Endersteel Shovel",
 	"item.endersteel.galvanized_endersteel_hoe": "Galvanized Endersteel Hoe",
+
+	"item.endersteel.galvanized_endersteel_helmet": "Galvanized Endersteel Helmet",
+	"item.endersteel.galvanized_endersteel_chestplate": "Galvanized Endersteel Chestplate",
+	"item.endersteel.galvanized_endersteel_leggings": "Galvanized Endersteel Leggings",
+	"item.endersteel.galvanized_endersteel_boots": "Galvanized Endersteel Boots",
 	
 	"block.endersteel.raw_endersteel_block": "Block of Raw Endersteel",
 	"block.endersteel.galvanized_endersteel_block": "Block of Galvanized Endersteel",

@@ -52,6 +52,7 @@ public class Endersteel {
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
     	if (event.getTab() == CreativeModeTabs.INGREDIENTS) {
     		event.accept(ModItem.RAW_ENDERSTEEL);
+            event.accept(ModItem.ENDERSTEEL_NUGGET);
     		event.accept(ModItem.GALVANIZED_ENDERSTEEL);
     	}
     	
@@ -67,6 +68,10 @@ public class Endersteel {
         if (event.getTab() == CreativeModeTabs.COMBAT) {
             event.accept(ModItem.GALVANIZED_ENDERSTEEL_SWORD);
             event.accept(ModItem.GALVANIZED_ENDERSTEEL_AXE);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_HELMET);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_CHESTPLATE);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_LEGGINGS);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_BOOTS);
         }
 
         if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

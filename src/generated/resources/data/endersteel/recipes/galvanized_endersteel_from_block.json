@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "galvanized_endersteel_from_block",
   "ingredients": [
     {
       "item": "endersteel:galvanized_endersteel_block"

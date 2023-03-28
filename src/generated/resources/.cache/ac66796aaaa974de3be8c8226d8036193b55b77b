@@ -1,7 +1,12 @@
-// 1.19.4	2023-03-27T21:02:02.0953389	Item Models: endersteel
+// 1.19.4	2023-03-28T00:51:00.3443465	Item Models: endersteel
+e28ed3608375f51b86fc44b516b6ea0908a3539a assets/endersteel/models/item/endersteel_nugget.json
 34a4e0ed0b58fe3f83f2b338e9f068e70d06d019 assets/endersteel/models/item/galvanized_endersteel.json
 294513ce378b391ab0716c0ebf01a0fb81f2b036 assets/endersteel/models/item/galvanized_endersteel_axe.json
+61143ddbf05fe7ab44f205763b4fb211fd624c25 assets/endersteel/models/item/galvanized_endersteel_boots.json
+2f1907cc194bee2ddc1d207505c2f435dba9b7ce assets/endersteel/models/item/galvanized_endersteel_chestplate.json
+c96bf3689f7f92aff45e35140d043f4813f5848e assets/endersteel/models/item/galvanized_endersteel_helmet.json
 c0c5fe3a2d37c35ee58d77a18fa79c97336b0399 assets/endersteel/models/item/galvanized_endersteel_hoe.json
+c5b5e900b057cea037b01b38ebd10657bb493df8 assets/endersteel/models/item/galvanized_endersteel_leggings.json
 3d8a849de9b07f980e5d0432743fae9d095760a1 assets/endersteel/models/item/galvanized_endersteel_pickaxe.json
 cfca4b67528ec322b8772f22af461b6946784984 assets/endersteel/models/item/galvanized_endersteel_shovel.json
 4c23bb6a0d66282ed4ab733688f75c84ce872d40 assets/endersteel/models/item/galvanized_endersteel_sword.json

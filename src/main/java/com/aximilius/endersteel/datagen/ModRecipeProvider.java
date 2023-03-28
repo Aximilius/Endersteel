@@ -36,9 +36,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 			
 			ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItem.GALVANIZED_ENDERSTEEL.get(), 9)
             		.requires(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK.get())
+					.group("galvanized_endersteel_from_block")
             		.unlockedBy("has_galvanized_endersteel_block", inventoryTrigger(ItemPredicate.Builder.item()
             				.of(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK.get()).build()))
-            		.save(consumer);
+            		.save(consumer, "endersteel:galvanized_endersteel_from_block");
+
+			ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItem.ENDERSTEEL_NUGGET.get(), 9)
+				.requires(ModItem.GALVANIZED_ENDERSTEEL.get())
+				.unlockedBy("has_galvanized_endersteel", inventoryTrigger(ItemPredicate.Builder.item()
+						.of(ModItem.GALVANIZED_ENDERSTEEL.get()).build()))
+				.save(consumer);
 			
 			ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlock.RAW_ENDERSTEEL_BLOCK.get())
 	        		.define('B', ModItem.RAW_ENDERSTEEL.get())
@@ -58,6 +65,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     						.of(ModItem.GALVANIZED_ENDERSTEEL.get()).build()))
     				.save(consumer);
 
+			ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.GALVANIZED_ENDERSTEEL.get())
+					.define('B', ModItem.ENDERSTEEL_NUGGET.get())
+					.pattern("BBB")
+					.pattern("BBB")
+					.pattern("BBB")
+					.group("galvanized_endersteel_from_nugget")
+					.unlockedBy("has_endersteel_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+							.of(ModItem.ENDERSTEEL_NUGGET.get()).build()))
+					.save(consumer, "endersteel:galvanized_endersteel_from_nugget");
 			/*
 			SmithingTransformRecipeBuilder.smithing(Ingredient.of(),
 					Ingredient.of(Blocks.NETHERITE_BLOCK),
