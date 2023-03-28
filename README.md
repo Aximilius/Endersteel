@@ -4,7 +4,7 @@ By: Aximilius
 My first foray into Minecraft modding, Endersteel is a vanilla-adjacent mod that adds an End-based endgame material to the game.
 
 # Instructions
-Download the "endersteel-1.0.4.1.jar" file and add it to your mods folder
+Download the "endersteel-1.19.4-1.0.4.1.jar" file and add it to your mods folder
 
 # Changelog
 v1.0.4.1
