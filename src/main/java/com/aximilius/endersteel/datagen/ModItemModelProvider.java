@@ -5,7 +5,7 @@ import com.aximilius.endersteel.item.ModItem;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelBuilder;
@@ -24,6 +24,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 		// TODO Auto-generated method stub
 		simpleItem(ModItem.RAW_ENDERSTEEL);
 		simpleItem(ModItem.GALVANIZED_ENDERSTEEL);
+		swordItem(ModItem.GALVANIZED_ENDERSTEEL_SWORD);
+		axeItem(ModItem.GALVANIZED_ENDERSTEEL_AXE);
+		pickaxeItem(ModItem.GALVANIZED_ENDERSTEEL_PICKAXE);
+		shovelItem(ModItem.GALVANIZED_ENDERSTEEL_SHOVEL);
+		hoeItem(ModItem.GALVANIZED_ENDERSTEEL_HOE);
 	}
 	
 	private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -33,6 +38,33 @@ public class ModItemModelProvider extends ItemModelProvider {
 	}
 
 	private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+
+	private ItemModelBuilder swordItem(RegistryObject<SwordItem> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+
+	private ItemModelBuilder axeItem(RegistryObject<AxeItem> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+	private ItemModelBuilder pickaxeItem(RegistryObject<PickaxeItem> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+	private ItemModelBuilder shovelItem(RegistryObject<ShovelItem> item) {
+		return withExistingParent(item.getId().getPath(),
+				new ResourceLocation("item/handheld")).texture("layer0",
+				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));
+	}
+	private ItemModelBuilder hoeItem(RegistryObject<HoeItem> item) {
 		return withExistingParent(item.getId().getPath(),
 				new ResourceLocation("item/handheld")).texture("layer0",
 				new ResourceLocation(Endersteel.MOD_ID, "item/" + item.getId().getPath()));

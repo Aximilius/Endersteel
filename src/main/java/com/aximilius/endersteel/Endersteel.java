@@ -63,6 +63,18 @@ public class Endersteel {
     		event.accept(ModBlock.ENDERSTEEL_DEPOSIT);
     		event.accept(ModBlock.RAW_ENDERSTEEL_BLOCK);
     	}
+
+        if (event.getTab() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_SWORD);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_AXE);
+        }
+
+        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_SHOVEL);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_PICKAXE);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_AXE);
+            event.accept(ModItem.GALVANIZED_ENDERSTEEL_HOE);
+        }
     }
     
     

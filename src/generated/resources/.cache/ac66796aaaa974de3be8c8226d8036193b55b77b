@@ -1,3 +1,8 @@
-// 1.19.4	2023-03-27T01:55:27.0908487	Item Models: endersteel
+// 1.19.4	2023-03-27T21:02:02.0953389	Item Models: endersteel
 34a4e0ed0b58fe3f83f2b338e9f068e70d06d019 assets/endersteel/models/item/galvanized_endersteel.json
+294513ce378b391ab0716c0ebf01a0fb81f2b036 assets/endersteel/models/item/galvanized_endersteel_axe.json
+c0c5fe3a2d37c35ee58d77a18fa79c97336b0399 assets/endersteel/models/item/galvanized_endersteel_hoe.json
+3d8a849de9b07f980e5d0432743fae9d095760a1 assets/endersteel/models/item/galvanized_endersteel_pickaxe.json
+cfca4b67528ec322b8772f22af461b6946784984 assets/endersteel/models/item/galvanized_endersteel_shovel.json
+4c23bb6a0d66282ed4ab733688f75c84ce872d40 assets/endersteel/models/item/galvanized_endersteel_sword.json
 4da9bb94651b04f99692ca407190c9f6f23d814b assets/endersteel/models/item/raw_endersteel.json

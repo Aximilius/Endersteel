@@ -2,20 +2,20 @@ package com.aximilius.endersteel.datagen;
 
 import java.util.function.Consumer;
 
+import com.aximilius.endersteel.Endersteel;
 import com.aximilius.endersteel.block.ModBlock;
 import com.aximilius.endersteel.item.ModItem;
 
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.client.Minecraft;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.LegacyUpgradeRecipeBuilder;
-import net.minecraft.data.recipes.RecipeBuilder;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.SmithingRecipe;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
@@ -57,9 +57,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     				.unlockedBy("has_galvanized_endersteel", inventoryTrigger(ItemPredicate.Builder.item()
     						.of(ModItem.GALVANIZED_ENDERSTEEL.get()).build()))
     				.save(consumer);
-			
-			
-		
+
+			/*
+			SmithingTransformRecipeBuilder.smithing(Ingredient.of(),
+					Ingredient.of(Blocks.NETHERITE_BLOCK),
+					Ingredient.of(ModItem.RAW_ENDERSTEEL.get()),
+					RecipeCategory.MISC, ModItem.GALVANIZED_ENDERSTEEL.get())
+					.unlocks("has_galvanized_endersteel", has(ModItem.GALVANIZED_ENDERSTEEL.get())).save(consumer, getItemName(ModItem.GALVANIZED_ENDERSTEEL.get()) + "_smithing");
+			 */
 	}
 
 }

@@ -1,12 +1,20 @@
-# Endersteel v1.0.3.0
+# Endersteel v1.0.4.0
 By: Aximilius
 
 My first foray into Minecraft modding, Endersteel is a vanilla-adjacent mod that adds an End-based endgame material to the game.
 
 # Instructions
-Download the "endersteel-1.0.3.0.jar" file and add it to your mods folder
+Download the "endersteel-1.0.4.0.jar" file and add it to your mods folder
 
 # Changelog
+v1.0.4.0
+- Added Galvanized Endersteel tools
+  - Galvanized Endersteel Sword
+  - Galvanized Endersteel Axe
+  - Galvanized Endersteel Pickaxe
+  - Galvanized Endersteel Shovel
+  - Galvanized Endersteel Hoe
+
 v1.0.3.0
 - Added naturally spawning Endersteel Deposit veins to the End
   - Spawns once per chunk in veins of 1-3
@@ -36,6 +44,6 @@ v1.0.0.0
 - Added Endersteel Deposit
 
 # Future Plans
-- Add full suite of tools and armor
-  - Potentially with their own special effects
+- Add armor
+  - Potentially with special effects
 - Allow the use of Endersteel blocks as a beacon base
