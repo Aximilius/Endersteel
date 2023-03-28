@@ -26,7 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 		dropSelf(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK.get());
 		
 		add(ModBlock.ENDERSTEEL_DEPOSIT.get(),
-				(block) -> createOreDrop(ModBlock.ENDERSTEEL_DEPOSIT.get(), ModItem.RAW_ENDERSTEEL.get()));
+				(block) -> createSingleItemTableWithSilkTouch(ModBlock.ENDERSTEEL_DEPOSIT.get(), ModItem.RAW_ENDERSTEEL.get()));
 	}
 	
 	@Override
