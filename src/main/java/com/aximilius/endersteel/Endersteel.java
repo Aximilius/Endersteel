@@ -4,9 +4,7 @@ import com.aximilius.endersteel.block.ModBlock;
 import com.aximilius.endersteel.item.ModItem;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -25,6 +23,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Endersteel.MOD_ID)
@@ -57,9 +58,9 @@ public class Endersteel {
     	}
     	
     	if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
-    		event.accept(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK);
-    	}
-    	
+            event.accept(ModBlock.GALVANIZED_ENDERSTEEL_BLOCK);
+        }
+
     	if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
     		event.accept(ModBlock.ENDERSTEEL_DEPOSIT);
     		event.accept(ModBlock.RAW_ENDERSTEEL_BLOCK);
@@ -81,7 +82,6 @@ public class Endersteel {
             event.accept(ModItem.GALVANIZED_ENDERSTEEL_HOE);
         }
     }
-    
     
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
