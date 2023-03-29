@@ -66,7 +66,7 @@ v0.0.0.0
   - Cancel out levitation effect
   - Enderpearls don't do damage
   - Endermites don't do damage
-- Allow the use of Endersteel blocks as a beacon base
 - Netherite and Endersteel horse armor
 - Sort the creative inventory to include Endersteel items (if possible)
 - Respawn anchor for the End
+- Advancements
