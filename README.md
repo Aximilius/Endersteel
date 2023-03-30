@@ -70,3 +70,4 @@ v0.0.0.0
 - Sort the creative inventory to include Endersteel items (if possible)
 - Respawn anchor for the End
 - Advancements
+- Modify the spawn rate of Endersteel Deposits and the smithing recipe for Galvanized Endersteel as necessary
