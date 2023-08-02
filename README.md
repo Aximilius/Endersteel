@@ -61,6 +61,7 @@ v0.0.0.0
 - Added Endersteel Deposit
 
 # Future Plans
+- UPDATE TO 1.20.X
 - Add special effects to armor
   - No endermen aggravation
   - Cancel out levitation effect
